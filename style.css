@@ -593,6 +593,17 @@ main .video-container a {
         height: 15px;
         margin-right: 15px;
     }
+     .video-container {
+        width: calc(100% - 20px); /* Adjust the width to fit two videos side by side */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .shorts-2 {
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
 }
 
 /* Small Screens */
